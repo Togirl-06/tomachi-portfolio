@@ -632,3 +632,17 @@ a { color: inherit; text-decoration: none; }
   .stats { grid-template-columns: 1fr 1fr; }
   .journey-item { grid-template-columns: 1fr; gap: 4px; }
 }
+
+/* ---------- founder tag ---------- */
+.founder-tag {
+  display: inline-block;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin: 0 0 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px dashed rgba(61,220,151,0.5);
+  transition: color 0.15s, border-color 0.15s;
+}
+.founder-tag strong { color: var(--g); font-weight: 600; }
+.founder-tag:hover { color: var(--g); border-bottom-color: var(--g); }
+.inline-link { color: var(--g); border-bottom: 1px solid currentColor; }

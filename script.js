@@ -256,10 +256,11 @@
   var termOut = document.getElementById('termOut');
   var termInput = document.getElementById('termInput');
   var commands = {
-    help: 'Commands: help, about, skills, projects, education, contact, hire, clear',
-    about: 'CS student @ Georgia State (May 2027). Founder of GradeGlow. Builds full-stack + AI products.',
+    help: 'Commands: help, about, gradeglow, skills, projects, education, contact, hire, clear',
+    about: 'Founder of GradeGlow — a virtual university for everyone. CS student @ Georgia State (May 2027). Builds full-stack + AI products.',
+    gradeglow: 'I founded GradeGlow: a virtual university + AI study assistant. Mission: world-class education regardless of income.\nhttps://gradeglow-virtualuni.web.app/',
     skills: 'Python · JavaScript · Java · Flutter/Dart · SQL · Firebase · Git · HTML/CSS · C',
-    projects: 'GradeGlow — https://gradeglow-virtualuni.web.app/\nSurefit Gym — https://surefitgymandfitnesscenter.com/',
+    projects: 'GradeGlow (founder) — https://gradeglow-virtualuni.web.app/\nSurefit Gym — https://surefitgymandfitnesscenter.com/',
     education: "Bachelor's CS (May 2027) · Associate CS (Dec 2025) · GPA 3.50 · Dean's & President's List",
     contact: 'Email: tomachiegere@gmail.com\nGitHub: github.com/Togirl-06\nLinkedIn: linkedin.com/in/tomachi-egere-4772a4316',
     hire: "I'm open to work — internships, freelance, and full-stack / AI roles. Let's build something.",
